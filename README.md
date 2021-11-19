@@ -11,6 +11,7 @@ A full scale web application on LAMP stack to sell digital goods such as ebooks,
 * 👉 Responsive Design
 * 👉 Built-in SEO Support
 * 👉 Customer can track their orders
+* 👉 90+ Google page speed score for both mobile and desktop
 
 ## Tech Stack 🖥️
 
