@@ -1,0 +1,522 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* font css to include in your project */
+@font-face {
+    font-family: montserrat-b;
+    src: url(../fonts/Montserrat-Bold.ttf);
+    font-display: swap;
+}
+.font-montserrat-b {
+    font-family: montserrat-b;
+}
+@font-face {
+    font-family: montserrat-m;
+    src: url(../fonts/Montserrat-Medium.otf);
+    font-display: swap;
+}
+.font-montserrat-m {
+    font-family: montserrat-m;
+}
+@font-face {
+    font-family: montserrat-r;
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-display: swap;
+}
+.font-montserrat-r {
+    font-family: montserrat-r;
+}
+@font-face {
+    font-family: roboto-b;
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-display: swap;
+}
+.font-roboto-b {
+    font-family: roboto-b;
+}
+@font-face {
+    font-family: roboto-m;
+    src: url(../fonts/Roboto-Medium.ttf);
+    font-display: swap;
+}
+.font-roboto-m {
+    font-family: roboto-m;
+}
+@font-face {
+    font-family: roboto-r;
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-display: swap;
+}
+.font-roboto-r {
+    font-family:roboto-r;
+}
+@font-face{
+    font-family: roboto-l;
+    src: url(../fonts/Roboto-Light.ttf);
+    font-display:swap;
+}
+.font-roboto-l{
+    font-family: roboto-l;
+}
+.color-white{
+    color: #FFF;
+}
+
+@font-face {
+    font-family: Lato-Black;
+    src: url(../fonts/Lato-Black.ttf);
+    font-display: swap;
+}
+.font-Lato-Black {
+    font-family: Lato-Black;
+}
+
+@font-face {
+    font-family: Lato-BlackItalic;
+    src: url(../fonts/Lato-BlackItalic.ttf);
+    font-display: swap;
+}
+.font-Lato-BlackItalic {
+    font-family: Lato-BlackItalic;
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url(../fonts/Lato-Bold.ttf);
+    font-display: swap;
+}
+.font-Lato-Bold {
+    font-family: Lato-Bold;
+}
+
+@font-face {
+    font-family: Lato-BoldItalic;
+    src: url(../fonts/Lato-BoldItalic.ttf);
+    font-display: swap;
+}
+.font-Lato-BoldItalic {
+    font-family: Lato-BoldItalic;
+}
+
+@font-face {
+    font-family: Lato-Italic;
+    src: url(../fonts/Lato-Italic.ttf);
+    font-display: swap;
+}
+.font-Lato-Italic {
+    font-family: Lato-Italic;
+}
+
+@font-face {
+    font-family: Lato-Light;
+    src: url(../fonts/Lato-Light.ttf);
+    font-display: swap;
+}
+.font-Lato-Light {
+    font-family: Lato-Light;
+}
+
+@font-face {
+    font-family: Lato-LightItalic;
+    src: url(../fonts/Lato-LightItalic.ttf);
+    font-display: swap;
+}
+.font-Lato-LightItalic {
+    font-family: Lato-LightItalic;
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../fonts/Lato-Regular.ttf);
+    font-display: swap;
+}
+.font-Lato-Regular {
+    font-family: Lato-Regular;
+}
+
+@font-face {
+    font-family: Lato-Thin;
+    src: url(../fonts/Lato-Thin.ttf);
+    font-display: swap;
+}
+.font-Lato-Thin {
+    font-family: Lato-Thin;
+}
+
+@font-face {
+    font-family: Lato-ThinItalic;
+    src: url(../fonts/Lato-ThinItalic.ttf);
+    font-display: swap;
+}
+.font-Lato-ThinItalic {
+    font-family: Lato-ThinItalic;
+}
+
+@font-face {
+    font-family: DancingScript-Bold;
+    src: url(../fonts/DancingScript-Bold.ttf);
+    font-display: swap;
+}
+.font-DancingScript-Bold {
+    font-family: DancingScript-Bold;
+}
+@font-face {
+    font-family: DancingScript-Medium;
+    src: url(../fonts/DancingScript-Medium.ttf);
+    font-display: swap;
+}
+.font-DancingScript-Medium {
+    font-family: DancingScript-Medium;
+}
+@font-face {
+    font-family: DancingScript-Regular;
+    src: url(../fonts/DancingScript-Regular.ttf);
+    font-display: swap;
+}
+.font-DancingScript-Regular {
+    font-family: DancingScript-Regular;
+}
+@font-face {
+    font-family: DancingScript-SemiBold;
+    src: url(../fonts/DancingScript-SemiBold.ttf);
+    font-display: swap;
+}
+.font-DancingScript-SemiBold {
+    font-family: DancingScript-SemiBold;
+}
+@font-face {
+    font-family: DancingScript-VariableFont_wght;
+    src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+    font-display: swap;
+}
+.font-DancingScript-VariableFont_wght {
+    font-family: DancingScript-VariableFont_wght;
+}
+
+
+/* desktop header css start */
+body {
+    font-family: "Lato", sans-serif;
+}
+
+#top-bar {
+    background-color: #24436e;
+    height: 30px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#top-bar-center {
+    background-color: #24436e;
+    height: 100%;
+    width: 80%;
+
+}
+
+#top-bar-left {
+    background-color: #24436e;
+    height: 100%;
+    width: 25%;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 12px;
+    float: left;
+}
+
+#top-bar-right {
+    background-color: #24436e;
+    height: 100%;
+    width: 40%;
+    float: right;
+}
+
+#top-bar-right a {
+    color: #dae7fa;
+    border-right: 1px solid white;
+    padding: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#top-bar-right :hover {
+    color: white;
+}
+
+#shop {
+    border-right: none !important;
+}
+
+#c {
+    clear: both;
+}
+
+#second-bar {
+    background-color: white;
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+
+}
+
+#second-bar-center {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding: none;
+}
+@media only screen and (min-width: 1920px) {
+    .hello {
+        height: 600px !important;
+    }
+}
+.hello {
+    height: auto;
+}
+#second-bar-left {
+    background-color: white;
+
+    width: 20%;
+    float: left;
+}
+
+#second-bar-mid {
+    background-color: white;
+    width: 60%;
+    float: left;
+}
+
+#second-bar-right {
+    background-color: white;
+    width: 20%;
+    float: right;
+}
+
+#second-bar-left img {
+    width: 90%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#second-bar-mid {
+    font-size: 14px;
+    word-spacing: 4px;
+    padding-top: 40px;
+    font-weight: bold;
+    padding-left: none;
+    padding-right: none;
+}
+
+#second-bar-mid a {
+    color: gray;
+    text-decoration: none;
+}
+
+#second-bar-mid :hover {
+    color: black;
+    border-top: 2px solid #24436e;
+}
+.active1 {
+    text-decoration: none;
+    color: black;
+    border-top: 2px solid #24436e;
+}
+
+
+#second-bar-right img {
+    width: 100%;
+    padding-top: 15px;
+}
+/* desktop header css end */
+
+/* desktop footer css */
+#card-bar {
+    height: 250px;
+    margin-top: 20px;
+}
+
+#card-bar-center {
+    height: 100%;
+    width: 80%;
+
+}
+
+#card-bar-one {
+    height: auto;
+    margin-top: 20px;
+}
+
+#card-bar-center-one {
+    height: 100%;
+    width: 80%;
+
+
+}
+.g {
+    background-color: gray;
+    margin-top: 50px;
+    padding: 5px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+#jtext {
+    color: white;
+    font-size: 12px;
+    text-align: justify;
+}
+#bhead {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#footbg {
+    background-color: #5b5b5b;
+    height: 100px;
+    margin-bottom: 0px;
+}
+
+#foot-mid {
+    margin: 0px auto;
+    width: 80%;
+    height: 100%;
+}
+
+#foot-mid-left {
+    height: 100%;
+    width: 25%;
+    color: rgba(153, 143, 143, 0.979);
+    font-weight: bold;
+    padding: 8px;
+    font-size: 70%;
+    float: left;
+}
+#footlink a {
+    color : white;
+    text-decoration: none;
+}
+
+#foot-mid-right {
+    height: 100%;
+    width: 30%;
+    float: right;
+}
+
+#foot-mid-right img {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+}
+/* input fields css start */
+    #field-outerDiv {
+        border: 1px solid #8a92a3;
+        padding: 2px;
+    }
+    #logobg {
+        border: none;
+        background-color: white;
+    }
+    #iconFormat {
+        color: #cacbcc;
+    }
+    #inputField {
+        height: auto;
+        border: none;
+        box-shadow: none;
+    }
+/* input fields css end */
+
+/* desktop footer css end */
+
+/* mobile header css start */
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1000;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: white;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/* sider bar css end */
+/* mobile header css end */
+
+/* mobile view footer start */
+
+/* mobile view footer end */
+
+/*second - bar active link css*/
+
+/* CSS used in all the other pages can be added here so that repetition of classes can be avoided */
+/* Example formating of css */
+/*#drawer{
+    -webkit-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: slideright;
+    animation-name: slideright;
+}
+@-webkit-keyframes slideright {
+    0% {transform: translate(-100%,0px);}
+    100% {transform: translate(0px,0px);}
+}
+@keyframes slideright {
+    0% {transform: translate(100%,0px);}
+    100% {transform: translate(0%,0px);}
+}*/
