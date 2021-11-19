@@ -14,7 +14,7 @@ A full scale web application on LAMP stack to sell digital goods such as ebooks,
 
 ## Tech Stack 🖥️
 
-For all those geek developers around 🤓, we use the `LAMP` stack for our Website.
+For all those geek developers around 🤓, we use the `LAMP` stack for our web applications.
 For those who don't know what `LAMP` is, it's a short-form of:
 * `Linux`: The operating system.
 * `Apache`: The web server
