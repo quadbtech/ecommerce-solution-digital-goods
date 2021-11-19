@@ -25,8 +25,8 @@ For those who don't know what `LAMP` is, it's a short-form of:
 ## How to get started 🏃‍♀️⚡
 
 ```
-- Install Apache
-- Run the project in Apache
+- Install XAMPP
+- Run the project in XAMPP
 - Change configuration in php/config.php
 - Connect with a MySQL Database
 
